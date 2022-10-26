@@ -1,0 +1,271 @@
+NOTICE:  CPU: STM32MP151CAB Rev.?
+NOTICE:  Model: IKEA home smart prototype. NOT FOR SALE
+NOTICE:  Bootrom authentication succeeded
+NOTICE:  BL2: v2.4-r2.0(release):v2.4-dirty
+NOTICE:  BL2: Built : 16:43:51, Nov 17 2020
+WARNING: FCONF: Invalid config id 26
+NOTICE:  BL2: Booting BL32
+[    1.010185] stm32-cpufreq stm32-cpufreq: Failed to get chip info: -517
+Starting initramfs ...
+Starting version 244
+Verified OK
+Build flavor: release
+Creating overlay on etc
+Switching root to '/rootfs'...
+[*     ] A start job is running for /sys/sub/net/devices/wlan0 (9s / 1min 30s)
+
+[**    ] A start job is running for /sys/subnet/devices/wlan0 (12s / 1min 30s)
+
+[***   ] A start job is running for /sys/subnet/devices/wlan0 (13s / 1min 30s)
+
+[ ***  ] A start job is running for /sys/subnet/devices/wlan0 (13s / 1min 30s)
+
+         Starting udev Wait for Complete Device Initialization...
+[  OK  ] Started udev Wait for Complete Device Initialization.
+[  OK  ] Reached target Local File Systems (Pre).
+         Mounting /var/volatile...
+         Starting Check battery status...
+[  OK  ] Mounted /var/volatile.
+         Starting /var/volatile mounted LED indicator...
+[  OK  ] Found device /sys/subsystem/net/devices/wlan0.
+[  OK  ] Started /var/volatile mounted LED indicator.
+[  OK  ] Started Check battery status.
+         Starting Maintain fs partition...
+[  OK  ] Started Maintain fs partition.
+         Starting Mount partitions...
+[  OK  ] Started Mount partitions.
+         Starting Bind mount volatile /etc...
+         Starting Bind mount volatile /lib/firmware...
+         Starting Bind mount volatile /home...
+         Starting Bind mount volatile /var/cache...
+         Starting Bind mount volatile /var/lib...
+         Starting Bind mount volatile /var/spool...
+[  OK  ] Started Bind mount volatile /etc.
+[  OK  ] Started Bind mount volatile /lib/firmware.
+[  OK  ] Started Bind mount volatile /home.
+[  OK  ] Started Bind mount volatile /var/cache.
+[  OK  ] Started Bind mount volatile /var/lib.
+[  OK  ] Started Bind mount volatile /var/spool.
+[  OK  ] Reached target Local File Systems.
+         Starting Load/Save Random Seed...
+         Starting Create Volatile Files and Directories...
+[  OK  ] Started Load/Save Random Seed.
+[  OK  ] Started Create Volatile Files and Directories.
+         Starting Network Name Resolution...
+         Starting Network Time Synchronization...
+         Starting Update UTMP about System Boot/Shutdown...
+[  OK  ] Started Update UTMP about System Boot/Shutdown.
+[  OK  ] Started Network Name Resolution.
+[  OK  ] Started Network Time Synchronization.
+[  OK  ] Reached target Host and Network Name Lookups.
+[  OK  ] Reached target System Initialization.
+[  OK  ] Started Monitor i2c peripheral link.
+[  OK  ] Started Monitor /usr/localn and trigger reset if exists.
+[  OK  ] Started Check if clock out id disabled.
+[  OK  ] Started Daily Cleanup of Temporary Directories.
+[  OK  ] Reached target Paths.
+[  OK  ] Reached target System Time Set.
+[  OK  ] Reached target System Time Synchronized.
+[  OK  ] Reached target Timers.
+[  OK  ] Listening on Avahi mDNS/DNS-SD Stack Activation Socket.
+[  OK  ] Listening on D-Bus System Message Bus Socket.
+[  OK  ] Reached target Sockets.
+[  OK  ] Reached target Basic System.
+         Starting Migrate daemons' r daemons' account UID/GIDs...
+         Starting Setup coredump...
+         Starting Cypress WiFi drivM workaround helper service...
+[  OK  ] Started D-Bus System Message Bus.
+         Starting DHCP Client Daemon...
+[  OK  ] Reached target Login Prompts.
+         Starting Group directory permission setup service...
+[  OK  ] Started Board variants parser.
+         Starting Autodetec HW revi2c peripheral devices setup...
+         Starting IPv6 Packet Filtering Framework...
+         Starting IPv4 Packet Filtering Framework...
+         Starting Static server to e information on the target...
+[  OK  ] Started Network service thtriggered by systemd-networkd.
+         Starting Avahi mDNS/DNS-SD Stack...
+         Starting Gateway software reset...
+         Starting Login Service...
+[  OK  ] Started TEE Supplicant.
+[  OK  ] Started Setup coredump.
+[  OK  ] Started Cypress WiFi driver PM workaround helper service.
+[  OK  ] Started Autodetec HW revis i2c peripheral devices setup.
+[  OK  ] Started Gateway software reset.
+         Starting Create environment file...
+[  OK  ] Started Create environment file.
+[  OK  ] Started Avahi mDNS/DNS-SD Stack.
+[  OK  ] Started Check for boot comete and broadcast mdns record.
+[  OK  ] Started DHCP Client Daemon.
+[  OK  ] Started Group directory permission setup service.
+         Starting Sets up permissioation and applies IKEA MAC....
+[  OK  ] Started Migrate daemons' fder daemons' account UID/GIDs.
+[  OK  ] Started Sets up permissionuration and applies IKEA MAC..
+         Starting WPA supplicant da11 driver-specific version)...
+[  OK  ] Started Login Service.
+[  OK  ] Started Static server to anse information on the target.
+[  OK  ] Started WPA supplicant dae0211 driver-specific version).
+[  OK  ] Started IPv4 Packet Filtering Framework.
+[  OK  ] Started IPv6 Packet Filtering Framework.
+[  OK  ] Reached target Network (Pre).
+[  OK  ] Reached target Network.
+[  OK  ] Reached target Network is Online.
+         Starting DNS forwarder and DHCP server...
+         Starting Mosquitto MQTT v3.1/v3.1.1 Broker...
+[  OK  ] Started Rauc Good-marking Service.
+[  OK  ] Started Mosquitto MQTT v3.1/v3.1.1 Broker.
+         Starting mosquitto.service is up LED indicator...
+[  OK  ] Started DNS forwarder and DHCP server.
+[  OK  ] Started mosquitto.service is up LED indicator.
+         Starting IOTC daemon...
+         Starting Rauc Update Service...
+[  OK  ] Started Rauc Update Service.
+[  OK  ] Started IOTC daemon.
+         Starting Gateway daemon...
+         Starting iotcd.service is up LED indicator...
+[  OK  ] Started iotcd.service is up LED indicator.
+[  OK  ] Started Gateway daemon.
+         Starting Data daemon...
+         Starting Apple HomeKit daemon...
+         Starting Nexus OTA daemon...
+         Starting Sonos daemon...
+         Starting Time Service...
+         Starting ZigBee IoTC daemon...
+[  OK  ] Started Apple HomeKit daemon.
+[  OK  ] Started Nexus OTA daemon.
+[  OK  ] Started Time Service.
+         Starting Fluent Bit...
+[  OK  ] Started Sonos daemon.
+[  OK  ] Started Fluent Bit.
+[  OK  ] Started Data daemon.
+         Starting Check that securiare secured with integrity....
+[  OK  ] Started ZigBee IoTC daemon.
+         Starting zigbd up LED indicator...
+[  OK  ] Started zigbd up LED indicator.
+         Starting Nexus REST API server...
+[  OK  ] Started Check that securits are secured with integrity..
+[  *** ] A start job is running for Nexus REST API server (47s / 3min 41s)
+
+[   ***] A start job is running for Nexus REST API server (48s / 3min 41s)
+
+[    **] A start job is running for Nexus REST API server (48s / 3min 41s)
+
+[     *] A start job is running for Nexus REST API server (49s / 3min 41s)
+
+[    **] A start job is running for Nexus REST API server (49s / 3min 41s)
+
+[   ***] A start job is running for Nexus REST API server (50s / 3min 41s)
+
+[  *** ] A start job is running for Nexus REST API server (50s / 3min 41s)
+
+[ ***  ] A start job is running for Nexus REST API server (51s / 3min 41s)
+
+[***   ] A start job is running for Nexus REST API server (51s / 3min 41s)
+
+[**    ] A start job is running for Nexus REST API server (52s / 3min 41s)
+
+[*     ] A start job is running for Nexus REST API server (52s / 3min 41s)
+
+[**    ] A start job is running for Nexus REST API server (53s / 3min 41s)
+
+[***   ] A start job is running for Nexus REST API server (53s / 3min 41s)
+
+[ ***  ] A start job is running for Nexus REST API server (54s / 3min 41s)
+
+[  *** ] A start job is running for Nexus REST API server (54s / 3min 41s)
+
+[   ***] A start job is running for Nexus REST API server (55s / 3min 41s)
+
+[    **] A start job is running for Nexus REST API server (55s / 3min 41s)
+
+[     *] A start job is running for Nexus REST API server (56s / 3min 41s)
+
+[    **] A start job is running for Nexus REST API server (56s / 3min 41s)
+
+[   ***] A start job is running for Nexus REST API server (57s / 3min 41s)
+
+[  *** ] A start job is running for Nexus REST API server (57s / 3min 41s)
+
+[ ***  ] A start job is running for Nexus REST API server (58s / 3min 41s)
+
+[***   ] A start job is running for Nexus REST API server (58s / 3min 41s)
+
+[**    ] A start job is running for Nexus REST API server (59s / 3min 41s)
+
+[*     ] A start job is running for Nexus REST API server (59s / 3min 41s)
+
+[**    ] A start job is running for Nexus REST API server (1min / 3min 41s)
+
+[***   ] A start job is running for Nexus REST API server (1min / 3min 41s)
+
+[ ***  ] A start job is running for Nexus REST API server (1min 1s / 3min 41s)
+
+[  *** ] A start job is running for Nexus REST API server (1min 1s / 3min 41s)
+
+[   ***] A start job is running for Nexus REST API server (1min 2s / 3min 41s)
+
+[    **] A start job is running for Nexus REST API server (1min 2s / 3min 41s)
+
+[     *] A start job is running for Nexus REST API server (1min 3s / 3min 41s)
+
+[    **] A start job is running for Nexus REST API server (1min 3s / 3min 41s)
+
+[   ***] A start job is running for Nexus REST API server (1min 4s / 3min 41s)
+
+[  *** ] A start job is running for Nexus REST API server (1min 4s / 3min 41s)
+
+[ ***  ] A start job is running for Nexus REST API server (1min 5s / 3min 41s)
+
+[***   ] A start job is running for Nexus REST API server (1min 5s / 3min 41s)
+
+[**    ] A start job is running for Nexus REST API server (1min 5s / 3min 41s)
+
+[*     ] A start job is running for Nexus REST API server (1min 6s / 3min 41s)
+
+[**    ] A start job is running for Nexus REST API server (1min 6s / 3min 41s)
+
+[***   ] A start job is running for Nexus REST API server (1min 7s / 3min 41s)
+
+[ ***  ] A start job is running for Nexus REST API server (1min 7s / 3min 41s)
+
+[  *** ] A start job is running for Nexus REST API server (1min 8s / 3min 41s)
+
+[   ***] A start job is running for Nexus REST API server (1min 8s / 3min 41s)
+
+[    **] A start job is running for Nexus REST API server (1min 9s / 3min 41s)
+
+[     *] A start job is running for Nexus REST API server (1min 9s / 3min 41s)
+
+[    **] A start job is running for Nexus REST API server (1min 10s / 3min 41s)
+
+[   ***] A start job is running for Nexus REST API server (1min 10s / 3min 41s)
+
+[  *** ] A start job is running for Nexus REST API server (1min 11s / 3min 41s)
+
+[  OK  ] Started Nexus REST API server.
+         Starting Cloud Connector service...
+[ ***  ] A start job is running for Cloud Coctor service (1min 16s / 4min 12s)
+
+[***   ] A start job is running for Cloud Coctor service (1min 16s / 4min 12s)
+
+[**    ] A start job is running for Cloud Coctor service (1min 17s / 4min 12s)
+
+[*     ] A start job is running for Cloud Coctor service (1min 17s / 4min 12s)
+
+[**    ] A start job is running for Cloud Coctor service (1min 18s / 4min 12s)
+
+[***   ] A start job is running for Cloud Coctor service (1min 18s / 4min 12s)
+
+[ ***  ] A start job is running for Cloud Coctor service (1min 19s / 4min 12s)
+
+[  *** ] A start job is running for Cloud Coctor service (1min 19s / 4min 12s)
+
+[   ***] A start job is running for Cloud Coctor service (1min 20s / 4min 12s)
+
+[  OK  ] Started Cloud Connector service.
+[  OK  ] Reached target IKEA Gateway services.
+[  OK  ] Reached target Multi-User System.
+         Starting gateway.target is up LED indicator...
+         Starting Update UTMP about System Runlevel Changes...
+[  OK  ] Started gateway.target is up LED indicator.
+[  OK  ] Started Update UTMP about System Runlevel Changes.
