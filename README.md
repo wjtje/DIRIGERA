@@ -10,7 +10,7 @@
 | RAM    | [M15T4G16256A](https://www.alldatasheet.com/datasheet-pdf/pdf/1284521/ESMT/M15T4G16256A.html)                    | 500MB |
 | e-MMC  | [THGBMNG5D1LBAIL](https://www.alldatasheet.com/datasheet-pdf/pdf/1244282/TOSHIBA/THGBMNG5D1LBAIL.html)           | 4GB   |
 | Wi-Fi  | muRata Type2AW                                                                                                   |       |
-| Zigbee | [MGM210L](https://www.silabs.com/documents/public/data-sheets/mgm210l-datasheet.pdf)                             |       |
+| Zigbee | [MGM210L](https://www.silabs.com/documents/public/data-sheets/mgm210l-datasheet.pdf) based on  [EFR32MG21](https://www.silabs.com/documents/public/data-sheets/efr32mg21-datasheet.pdf) |       |
 
 ## Images
 
