@@ -6,7 +6,7 @@
 
 | Chip   | Part No.                                                                                                         |       |
 | ------ | ---------------------------------------------------------------------------------------------------------------- | ----- |
-| SoC    | [STM32MP157CAB3](https://www.alldatasheet.com/datasheet-pdf/pdf/1278250/STMICROELECTRONICS/STM32MP157CAB3T.html) |       |
+| SoC    | [STM32MP157CAB3](https://www.st.com/resource/en/datasheet/stm32mp157c.pdf)                                       |       |
 | RAM    | [M15T4G16256A](https://www.alldatasheet.com/datasheet-pdf/pdf/1284521/ESMT/M15T4G16256A.html)                    | 500MB |
 | e-MMC  | [THGBMNG5D1LBAIL](https://www.alldatasheet.com/datasheet-pdf/pdf/1244282/TOSHIBA/THGBMNG5D1LBAIL.html)           | 4GB   |
 | Wi-Fi  | muRata Type2AW                                                                                                   |       |
