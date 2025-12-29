@@ -9,7 +9,7 @@
 | SoC    | [STM32MP157CAB3](https://www.st.com/resource/en/datasheet/stm32mp157c.pdf)                                       |       |
 | RAM    | [M15T4G16256A](https://www.alldatasheet.com/datasheet-pdf/pdf/1284521/ESMT/M15T4G16256A.html)                    | 500MB |
 | e-MMC  | [THGBMNG5D1LBAIL](https://www.alldatasheet.com/datasheet-pdf/pdf/1244282/TOSHIBA/THGBMNG5D1LBAIL.html)           | 4GB   |
-| Wi-Fi  | muRata Type2AW                                                                                                   |       |
+| Wi-Fi  | muRata [Type2AW](https://www.murata.com/-/media/webrenewal/products/connectivitymodule/asset/pub/rfm/data/type2ae-2bc-hw-application-note.ashx?la=en&cvid=20240405010000000000)                                                                                                   |       |
 | Zigbee | [MGM210L](https://www.silabs.com/documents/public/data-sheets/mgm210l-datasheet.pdf) based on  [EFR32MG21](https://www.silabs.com/documents/public/data-sheets/efr32mg21-datasheet.pdf) |       |
 
 ## Images
